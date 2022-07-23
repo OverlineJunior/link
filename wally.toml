@@ -1,6 +1,7 @@
 [package]
 name = "overlinejunior/link"
-version = "0.1.0"
+description = "Extremely simple networking library that allows you to create shared modules for remotes that are the same between both the client and server."
+version = "0.1.1"
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
 licence = "MIT"
