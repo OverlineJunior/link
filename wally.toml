@@ -3,15 +3,9 @@ name = "overlinejunior/link"
 version = "0.1.0"
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
-
-[dependencies]
-
-
-[package]
-name = "overlinejunior/hearts"
-version = "1.0.1"
-registry = "https://github.com/UpliftGames/wally-index"
-realm = "shared"
 licence = "MIT"
 author = "Over"
 exclude = ["selene.toml", "roblox.toml"]
+
+
+[dependencies]
