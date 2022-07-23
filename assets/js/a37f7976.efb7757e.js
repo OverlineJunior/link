@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[538],{97868:function(s){s.exports=JSON.parse('{"sourceUrl":"https://github.com/OverlineJunior/link/blob/master","baseUrl":"/link/","classOrder":[],"apiCategories":[]}')}}]);
