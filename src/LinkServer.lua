@@ -18,6 +18,15 @@ function LinkServer.event(): RemoteEvent
 end
 
 
+function LinkServer.unreliableEvent(): UnreliableRemoteEvent
+    local remEvent = Instance.new('UnreliableRemoteEvent')
+    remEvent.Name = Shared.GenerateRemoteId()
+    remEvent.Parent = container
+
+    return remEvent
+end
+
+
 function LinkServer.fn(): RemoteFunction
     local remFn = Instance.new('RemoteFunction')
     remFn.Name = Shared.GenerateRemoteId()

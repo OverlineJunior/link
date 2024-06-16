@@ -44,6 +44,14 @@ local RunService = game:GetService('RunService')
 ]=]
 
 --[=[
+    @function unreliableEvent
+    @return UnreliableRemoteEvent
+    @within Link
+
+    Same as [Link.event], but returns an UnreliableRemoteEvent instead.
+]=]
+
+--[=[
     @function fn
     @return RemoteFunction
     @within Link

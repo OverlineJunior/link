@@ -12,6 +12,11 @@ function LinkClient.event(): RemoteEvent
 end
 
 
+function LinkClient.unreliableEvent(): UnreliableRemoteEvent
+    return container[Shared.GenerateRemoteId()]
+end
+
+
 function LinkClient.fn(): RemoteFunction
     return container[Shared.GenerateRemoteId()]
 end
