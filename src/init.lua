@@ -60,6 +60,6 @@ local RunService = game:GetService('RunService')
 ]=]
 
 return if RunService:IsServer() then
-    require(script.LinkServer)
+    require(script.linkServer)
 else
-    require(script.LinkClient)
+    require(script.linkClient)

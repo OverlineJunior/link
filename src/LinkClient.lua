@@ -1,6 +1,6 @@
 local ReplicatedStorage = game:GetService('ReplicatedStorage')
 
-local Shared = require(script.Parent.Shared)
+local Shared = require(script.Parent.shared)
 
 local container = ReplicatedStorage:WaitForChild(Shared.REMOTE_CONTAINER_NAME)
 
